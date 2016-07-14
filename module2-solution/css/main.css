@@ -115,7 +115,7 @@ p {
 }
 
 .box--bordered {
-  border: 3px solid #333;
+  border: 1px solid #333;
 }
 
 .box__ribbon {
@@ -126,8 +126,8 @@ p {
 }
 
 .box__ribbon--bordered {
-  border-left: 3px solid #333;
-  border-bottom: 3px solid #333;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
 }
 
 .box__ribbon--pink   {
