@@ -1,100 +1,28 @@
-* {
-	padding: 0px;
-	margin: 0px;
+body { 
+  padding-top: 50px; /* The fixed navbar will overlay your other content, unless you add padding to the top of the <body>.*/
 }
-
-body {
-	font-size: 16px;
-	color: #004F2D;
-	background-color: #0A8754;
-	font-family: 'Oxygen', sans-serif;
+#nav-list {
+  margin-top: 10px;
 }
-
-h1 {
-	margin: 0px;
-	padding: 0px;
+#nav-list a {
+  color: #951C49;
+  text-align: center;
 }
-
-#collapsable-nav {
-	clear: left;	
+#nav-list a:hover {
+  background: #E7E7E7;
 }
-
-#header-nav {
-	border-radius: 0;
-	border: 0;
-	background-color: #9FD8CB;
+#menu-section{
+  background: #ddeedd;
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  border: 1px solid #3F0C1F;
+  overflow: hidden;
 }
-
-#menu-title {
-	color: white;
-	font-size: 2em;
+h1,h3{
+	padding-top: 50px; 
+	margin-top: -50px;
 }
-
-.container-fluid {
-	padding: 0px;
-}
-
-.container-fluid>.navbar-header {
-	margin: 0px;
-}
-
-.navbar-header {
-	width: 100%;
-	margin: 0px;
-}
-
-.list-group {
-	margin: 0px;
-	padding: 0px;
-}
-
-.list-group-item {
-	border-radius: 0;
-	border-right: 0px;
-	border-left: 0px;
-	padding: 0px;
-	margin: 0px;
-	color: white;
-	background-color: #9FD8CB;
-}
-
-.list-group-item:hover {
-	color: white;
-	background-color: #00703F;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: white;
-}
-
-.navbar-brand {
-	vertical-align: middle;
-	margin: 5px 10px 10px 10px;
-}
-
-@media (min-width: 768px) {
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 10px;
-}
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-  	text-decoration: none;
-}
-
-.navbar-collapse {
-	padding: 0px;
-}
-
-.menu-section {
-	background-color: #9FD8CB;
-	box-sizing: border-box;
-	margin: 20px 10px;
-	padding: 10px;
-}
-
-.menu-section-title {
-	font-size: 1.75em;
-}
-
-
