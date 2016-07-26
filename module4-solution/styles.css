@@ -1,5 +1,5 @@
 #heading-1 {
-    color: maroon;
+    color: red;
     margin: 40px auto 20px;
     text-align: center;
 }
@@ -8,5 +8,5 @@
 hr {
     width: 40%;
     border-width: 1px;
-    border-color: maroon;
+    border-color: red;
 }
